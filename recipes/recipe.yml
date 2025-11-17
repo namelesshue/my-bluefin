@@ -36,6 +36,7 @@ modules:
           - org.prismlauncher.PrismLauncher
           - dev.deedles.Trayscale
           - org.gnome.World.PikaBackup
+          - io.podman_desktop.PodmanDesktop
         remove:
           - org.gnome.baobab
           - org.gnome.clocks
