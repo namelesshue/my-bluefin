@@ -16,6 +16,7 @@ modules:
     install:
       packages:
         - tealdeer
+        - nu
 
   - type: default-flatpaks
     configurations:
