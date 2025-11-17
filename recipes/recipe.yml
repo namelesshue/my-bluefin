@@ -12,6 +12,11 @@ modules:
       - source: system
         destination: /
 
+  - type: dnf
+    install:
+      packages:
+        - tealdeer
+
   - type: default-flatpaks
     configurations:
       - notify: true
@@ -30,6 +35,13 @@ modules:
           - org.prismlauncher.PrismLauncher
           - dev.deedles.Trayscale
           - org.gnome.World.PikaBackup
+        remove:
+          - org.gnome.baobab
+          - org.gnome.clocks
+          - org.gnome.Maps
+          - org.gnome.DejaDup
+          - org.gnome.Characters
+          - org.gnome.TextEditor
 
   - type: chezmoi
     repository: "https://github.com/hagenest/dotfiles"
@@ -40,6 +52,10 @@ modules:
       - AppIndicator and KStatusNotifierItem Support
       - Caffeine
       - Network Stats
+      - Tiling Shell
+      - Just Perfection
+    remove:
+      - GSConnect
 
   - type: fonts
     fonts:
