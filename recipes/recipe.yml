@@ -12,20 +12,23 @@ modules:
       - source: system
         destination: /
 
-  - type: dnf
-    repos:
-      copr:
-    install:
-      packages:
-    remove:
-      packages:
-
-
   - type: default-flatpaks
     configurations:
       - notify: true
         scope: system
         install:
           - org.mozilla.firefox
+          - io.gitlab.librewolf-community
+          - io.github.ungoogled_software.ungoogled_chromium
+          - dev.zed.Zed
+          - io.github.alainm23.planify
+          - com.valvesoftware.Steam
+          - dev.vencord.Vesktop
+          - im.riot.Riot
+          - org.signal.Signal
+          - io.github.astralvixen.geforce-infinity
+          - org.prismlauncher.PrismLauncher
+          - dev.deedles.Trayscale
+          - org.gnome.World.PikaBackup
 
   - type: signing
