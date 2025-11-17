@@ -31,4 +31,14 @@ modules:
           - dev.deedles.Trayscale
           - org.gnome.World.PikaBackup
 
+  - type: chezmoi
+    repository: "https://github.com/hagenest/dotfiles"
+    file-conflict-policy: replace
+
+  - type: gnome-extensions
+    install:
+      - AppIndicator and KStatusNotifierItem Support
+      - Caffeine
+      - Network Stats
+
   - type: signing
